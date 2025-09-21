@@ -1,0 +1,441 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Football Universe</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&family=Montserrat:wght@700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="preloader">
+        <div class="loader"></div>
+    </div>
+
+    <header class="sticky-header">
+        <div class="container">
+            <div class="logo">
+                <i class="fas fa-futbol"></i>
+                <h1>Football Universe</h1>
+            </div>
+            <nav>
+                <ul>
+                    <li><a href="#home" class="nav-link active">Home</a></li>
+                    <li><a href="#news" class="nav-link">News</a></li>
+                    <li><a href="#matches" class="nav-link">Matches</a></li>
+                    <li><a href="#teams" class="nav-link">Teams</a></li>
+                    <li><a href="#highlights" class="nav-link">Highlights</a></li>
+                </ul>
+            </nav>
+            <div class="mobile-menu-btn">
+                <i class="fas fa-bars"></i>
+            </div>
+        </div>
+    </header>
+
+    <main>
+        <section id="home" class="hero">
+            <div class="hero-overlay"></div>
+            <div class="container">
+                <div class="hero-content">
+                    <h2>Experience The Passion</h2>
+                    <p class="subtitle">Your ultimate destination for everything football - news, stats, and live updates</p>
+                    <div class="cta-buttons">
+                        <button class="btn-primary pulse">Latest Scores</button>
+                        <button class="btn-secondary">Watch Highlights</button>
+                    </div>
+                </div>
+                <div class="hero-stats">
+                    <div class="stat-item">
+                        <div class="stat-value" data-count="256">0</div>
+                        <div class="stat-label">Matches Today</div>
+                    </div>
+                    <div class="stat-item">
+                        <div class="stat-value" data-count="48">0</div>
+                        <div class="stat-label">Live Games</div>
+                    </div>
+                    <div class="stat-item">
+                        <div class="stat-value" data-count="189">0</div>
+                        <div class="stat-label">Top Players</div>
+                    </div>
+                </div>
+            </div>
+            <div class="scroll-down">
+                <i class="fas fa-chevron-down"></i>
+            </div>
+        </section>
+
+        <section id="news" class="news-section">
+            <div class="section-header">
+                <h2>Latest Football News</h2>
+                <p>Stay updated with the most recent happenings in the football world</p>
+            </div>
+            <div class="container">
+                <div class="news-grid">
+                    <article class="news-card">
+                        <div class="news-image">
+                            <img src="https://images.unsplash.com/photo-1574629810360-7efbbe195018?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1000&q=80" alt="Champions League">
+                            <div class="news-tag">Champions League</div>
+                        </div>
+                        <div class="news-content">
+                            <div class="news-meta">
+                                <span class="date"><i class="far fa-calendar-alt"></i> May 20, 2023</span>
+                                <span class="comments"><i class="far fa-comment"></i> 24 Comments</span>
+                            </div>
+                            <h3>Champions League Finals Set After Dramatic Semifinals</h3>
+                            <p>The semifinals concluded with two thrilling matches that went into extra time, determining this year's finalists in an unforgettable night of football.</p>
+                            <a href="#" class="read-more">Read More <i class="fas fa-arrow-right"></i></a>
+                        </div>
+                    </article>
+                    
+                    <article class="news-card">
+                        <div class="news-image">
+                            <img src="https://images.unsplash.com/photo-1540747913346-19e32dc3e97e?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1000&q=80" alt="Player Transfer">
+                            <div class="news-tag">Transfers</div>
+                        </div>
+                        <div class="news-content">
+                            <div class="news-meta">
+                                <span class="date"><i class="far fa-calendar-alt"></i> May 18, 2023</span>
+                                <span class="comments"><i class="far fa-comment"></i> 42 Comments</span>
+                            </div>
+                            <h3>Star Player Announces Record-Breaking Transfer Deal</h3>
+                            <p>After months of speculation, the international superstar has confirmed his move to a new club in what analysts are calling the most expensive transfer in history.</p>
+                            <a href="#" class="read-more">Read More <i class="fas fa-arrow-right"></i></a>
+                        </div>
+                    </article>
+                    
+                    <article class="news-card">
+                        <div class="news-image">
+                            <img src="https://images.unsplash.com/photo-1431324155629-1a6deb1dec8d?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1000&q=80" alt="World Cup">
+                            <div class="news-tag">World Cup</div>
+                        </div>
+                        <div class="news-content">
+                            <div class="news-meta">
+                                <span class="date"><i class="far fa-calendar-alt"></i> May 15, 2023</span>
+                                <span class="comments"><i class="far fa-comment"></i> 36 Comments</span>
+                            </div>
+                            <h3>World Cup Preparations Begin in Host Nation</h3>
+                            <p>The host nation starts massive stadium upgrades as teams across the globe begin their qualification matches for the most prestigious tournament in football.</p>
+                            <a href="#" class="read-more">Read More <i class="fas fa-arrow-right"></i></a>
+                        </div>
+                    </article>
+                </div>
+                <div class="view-all">
+                    <a href="#" class="btn-outline">View All News <i class="fas fa-arrow-right"></i></a>
+                </div>
+            </div>
+        </section>
+
+        <section id="matches" class="matches-section">
+            <div class="section-header">
+                <h2>Upcoming Matches</h2>
+                <p>Don't miss these exciting fixtures coming soon</p>
+            </div>
+            <div class="container">
+                <div class="match-tabs">
+                    <button class="tab-btn active" data-tab="today">Today</button>
+                    <button class="tab-btn" data-tab="tomorrow">Tomorrow</button>
+                    <button class="tab-btn" data-tab="week">This Week</button>
+                </div>
+                
+                <div class="match-schedule">
+                    <div class="match">
+                        <div class="match-date">
+                            <div class="date-day">25</div>
+                            <div class="date-month">May</div>
+                        </div>
+                        <div class="teams">
+                            <div class="team home">
+                                <img src="https://via.placeholder.com/50x50?text=MU" alt="Manchester United">
+                                <span>Manchester United</span>
+                            </div>
+                            <div class="match-info">
+                                <div class="league">Premier League</div>
+                                <div class="time">19:45 GMT</div>
+                                <div class="vs">VS</div>
+                            </div>
+                            <div class="team away">
+                                <img src="https://via.placeholder.com/50x50?text=LIV" alt="Liverpool">
+                                <span>Liverpool</span>
+                            </div>
+                        </div>
+                        <button class="match-btn">+ Remind Me</button>
+                    </div>
+                    
+                    <div class="match">
+                        <div class="match-date">
+                            <div class="date-day">28</div>
+                            <div class="date-month">May</div>
+                        </div>
+                        <div class="teams">
+                            <div class="team home">
+                                <img src="https://via.placeholder.com/50x50?text=FCB" alt="Barcelona">
+                                <span>Barcelona</span>
+                            </div>
+                            <div class="match-info">
+                                <div class="league">La Liga</div>
+                                <div class="time">20:00 CET</div>
+                                <div class="vs">VS</div>
+                            </div>
+                            <div class="team away">
+                                <img src="https://via.placeholder.com/50x50?text=RMA" alt="Real Madrid">
+                                <span>Real Madrid</span>
+                            </div>
+                        </div>
+                        <button class="match-btn">+ Remind Me</button>
+                    </div>
+                    
+                    <div class="match">
+                        <div class="match-date">
+                            <div class="date-day">01</div>
+                            <div class="date-month">Jun</div>
+                        </div>
+                        <div class="teams">
+                            <div class="team home">
+                                <img src="https://via.placeholder.com/50x50?text=BAY" alt="Bayern Munich">
+                                <span>Bayern Munich</span>
+                            </div>
+                            <div class="match-info">
+                                <div class="league">Bundesliga</div>
+                                <div class="time">18:30 CET</div>
+                                <div class="vs">VS</div>
+                            </div>
+                            <div class="team away">
+                                <img src="https://via.placeholder.com/50x50?text=BVB" alt="Dortmund">
+                                <span>Dortmund</span>
+                            </div>
+                        </div>
+                        <button class="match-btn">+ Remind Me</button>
+                    </div>
+                </div>
+                
+                <div class="view-all">
+                    <a href="#" class="btn-outline">Full Schedule <i class="fas fa-arrow-right"></i></a>
+                </div>
+            </div>
+        </section>
+
+        <section id="teams" class="teams-section">
+            <div class="section-header">
+                <h2>Top Teams Rankings</h2>
+                <p>Current standings of the best football clubs worldwide</p>
+            </div>
+            <div class="container">
+                <div class="ranking-table">
+                    <div class="table-header">
+                        <div class="pos">#</div>
+                        <div class="team-col">Team</div>
+                        <div class="played">P</div>
+                        <div class="won">W</div>
+                        <div class="drawn">D</div>
+                        <div class="lost">L</div>
+                        <div class="points">PTS</div>
+                    </div>
+                    
+                    <div class="table-row">
+                        <div class="pos">1</div>
+                        <div class="team-col">
+                            <img src="https://via.placeholder.com/30x30?text=MCI" alt="Man City">
+                            <span>Manchester City</span>
+                        </div>
+                        <div class="played">38</div>
+                        <div class="won">28</div>
+                        <div class="drawn">7</div>
+                        <div class="lost">3</div>
+                        <div class="points">91</div>
+                    </div>
+                    
+                    <div class="table-row">
+                        <div class="pos">2</div>
+                        <div class="team-col">
+                            <img src="https://via.placeholder.com/30x30?text=ARS" alt="Arsenal">
+                            <span>Arsenal</span>
+                        </div>
+                        <div class="played">38</div>
+                        <div class="won">26</div>
+                        <div class="drawn">6</div>
+                        <div class="lost">6</div>
+                        <div class="points">84</div>
+                    </div>
+                    
+                    <div class="table-row">
+                        <div class="pos">3</div>
+                        <div class="team-col">
+                            <img src="https://via.placeholder.com/30x30?text=MU" alt="Man United">
+                            <span>Manchester United</span>
+                        </div>
+                        <div class="played">38</div>
+                        <div class="won">23</div>
+                        <div class="drawn">6</div>
+                        <div class="lost">9</div>
+                        <div class="points">75</div>
+                    </div>
+                    
+                    <div class="table-row">
+                        <div class="pos">4</div>
+                        <div class="team-col">
+                            <img src="https://via.placeholder.com/30x30?text=LIV" alt="Liverpool">
+                            <span>Liverpool</span>
+                        </div>
+                        <div class="played">38</div>
+                        <div class="won">19</div>
+                        <div class="drawn">10</div>
+                        <div class="lost">9</div>
+                        <div class="points">67</div>
+                    </div>
+                    
+                    <div class="table-row">
+                        <div class="pos">5</div>
+                        <div class="team-col">
+                            <img src="https://via.placeholder.com/30x30?text=NEW" alt="Newcastle">
+                            <span>Newcastle United</span>
+                        </div>
+                        <div class="played">38</div>
+                        <div class="won">19</div>
+                        <div class="drawn">8</div>
+                        <div class="lost">11</div>
+                        <div class="points">65</div>
+                    </div>
+                </div>
+                
+                <div class="view-all">
+                    <a href="#" class="btn-outline">Complete Rankings <i class="fas fa-arrow-right"></i></a>
+                </div>
+            </div>
+        </section>
+
+        <section id="highlights" class="highlights-section">
+            <div class="section-header">
+                <h2>Match Highlights</h2>
+                <p>Relive the most exciting moments from recent games</p>
+            </div>
+            <div class="container">
+                <div class="highlight-slider">
+                    <div class="highlight-card">
+                        <div class="highlight-video">
+                            <img src="https://images.unsplash.com/photo-1522778119026-d647f0596c20?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1000&q=80" alt="Highlight">
+                            <div class="play-btn"><i class="fas fa-play"></i></div>
+                        </div>
+                        <div class="highlight-info">
+                            <div class="match-teams">Man City vs Real Madrid</div>
+                            <div class="match-competition">Champions League Semifinal</div>
+                            <div class="match-date">May 17, 2023</div>
+                        </div>
+                    </div>
+                    
+                    <div class="highlight-card">
+                        <div class="highlight-video">
+                            <img src="https://images.unsplash.com/photo-1543357480-c60d400e2ef9?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1000&q=80" alt="Highlight">
+                            <div class="play-btn"><i class="fas fa-play"></i></div>
+                        </div>
+                        <div class="highlight-info">
+                            <div class="match-teams">Barcelona vs PSG</div>
+                            <div class="match-competition">Champions League Quarterfinal</div>
+                            <div class="match-date">May 10, 2023</div>
+                        </div>
+                    </div>
+                    
+                    <div class="highlight-card">
+                        <div class="highlight-video">
+                            <img src="https://images.unsplash.com/photo-1579952363872-3f3bfd6f1c9d?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1000&q=80" alt="Highlight">
+                            <div class="play-btn"><i class="fas fa-play"></i></div>
+                        </div>
+                        <div class="highlight-info">
+                            <div class="match-teams">Liverpool vs Arsenal</div>
+                            <div class="match-competition">Premier League</div>
+                            <div class="match-date">May 5, 2023</div>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="view-all">
+                    <a href="#" class="btn-outline">More Highlights <i class="fas fa-arrow-right"></i></a>
+                </div>
+            </div>
+        </section>
+
+        <section class="newsletter-section">
+            <div class="container">
+                <div class="newsletter-box">
+                    <div class="newsletter-content">
+                        <h3>Subscribe to Our Newsletter</h3>
+                        <p>Get the latest football news, match updates, and exclusive content delivered straight to your inbox.</p>
+                    </div>
+                    <form class="newsletter-form">
+                        <input type="email" placeholder="Your email address" required>
+                        <button type="submit" class="btn-primary">Subscribe</button>
+                    </form>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <div class="container">
+            <div class="footer-grid">
+                <div class="footer-col about">
+                    <div class="logo">
+                        <i class="fas fa-futbol"></i>
+                        <h3>Football Universe</h3>
+                    </div>
+                    <p>Your ultimate destination for everything football - news, stats, and live updates from around the world.</p>
+                    <div class="social-links">
+                        <a href="#"><i class="fab fa-facebook-f"></i></a>
+                        <a href="#"><i class="fab fa-twitter"></i></a>
+                        <a href="#"><i class="fab fa-instagram"></i></a>
+                        <a href="#"><i class="fab fa-youtube"></i></a>
+                        <a href="#"><i class="fab fa-tiktok"></i></a>
+                    </div>
+                </div>
+                
+                <div class="footer-col links">
+                    <h4>Quick Links</h4>
+                    <ul>
+                        <li><a href="#home">Home</a></li>
+                        <li><a href="#news">News</a></li>
+                        <li><a href="#matches">Matches</a></li>
+                        <li><a href="#teams">Teams</a></li>
+                        <li><a href="#highlights">Highlights</a></li>
+                        <li><a href="#">Live Scores</a></li>
+                    </ul>
+                </div>
+                
+                <div class="footer-col leagues">
+                    <h4>Top Leagues</h4>
+                    <ul>
+                        <li><a href="#">Premier League</a></li>
+                        <li><a href="#">La Liga</a></li>
+                        <li><a href="#">Bundesliga</a></li>
+                        <li><a href="#">Serie A</a></li>
+                        <li><a href="#">Ligue 1</a></li>
+                        <li><a href="#">Champions League</a></li>
+                    </ul>
+                </div>
+                
+                <div class="footer-col contact">
+                    <h4>Contact Us</h4>
+                    <ul>
+                        <li><i class="fas fa-map-marker-alt"></i> 123 Football Street, Sports City</li>
+                        <li><i class="fas fa-phone"></i> +1 (234) 567-8900</li>
+                        <li><i class="fas fa-envelope"></i> info@footballuniverse.com</li>
+                    </ul>
+                </div>
+            </div>
+            
+            <div class="footer-bottom">
+                <p>&copy; 2023 Football Universe. All rights reserved.</p>
+                <div class="legal-links">
+                    <a href="#">Privacy Policy</a>
+                    <a href="#">Terms of Service</a>
+                    <a href="#">Cookies Policy</a>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
